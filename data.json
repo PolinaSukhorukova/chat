@@ -1,0 +1,19 @@
+{
+  "greeting": {
+    "greeting": "Привіт!",
+    "message": "Як я можу вам допомогти?"
+    
+  },
+  "options": [
+    { "text": "Який сьогодні день?", "value": "day" },
+    { "text": "Яка зараз година?", "value": "time" },
+    { "text": "Скільки днів до Нового Року?", "value": "daysToNewYear" },
+    { "text": "Своє питання", "value": "customQuestion" }
+  ],
+  "responses": {
+    "day": "Сьогодні {{day}}",
+    "time": "Зараз {{time}}",
+    "daysToNewYear": "До Нового Року залишилось {{days}} днів",
+    "customQuestion": "Введіть своє питання"
+  }
+}
