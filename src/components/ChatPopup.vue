@@ -118,7 +118,7 @@ const submitQuestion = async () => {
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const fetchData = async () => {
-  const response = await axios.get('./data.json');
+  const response = await axios.get('/chat/data.json');
   return response.data;
 };
 
